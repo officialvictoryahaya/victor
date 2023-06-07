@@ -1,0 +1,395 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav_bar{
+    background: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 64px;
+    padding:0 100px;
+    position: relative;
+}
+
+.log{ 
+    width: 100%;
+    height: auto;
+    margin: 30px 0;
+}
+
+.logo{
+    float: left;
+    color:red;
+    font-size: 30px;
+    font-family: cursive;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 2s ease;
+}
+.logo:hover{
+    color: aquamarine;
+}
+
+.link{
+    height: auto;
+    float: left;
+    width:50% ;
+
+}
+
+.nav_bar ul{
+    display: flex;
+}
+
+.nav_bar ul li {
+list-style: none;
+margin-left: 20px;
+font-size:2px ;
+}
+
+
+.nav_bar ul li a {
+text-decoration: none;
+color:black;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+transition: 1s ease;
+font-size: 15px;
+border-radius: 70px;
+margin: 0 5px;
+padding: 10px 25px;
+}
+
+ul li a:hover{
+    color: red;
+    background-color:white;
+}
+
+.nav_bar ul li a.active{
+    background-color: white;
+    color: red;
+}
+
+
+
+.btn{
+    border: 1px;
+    display: flex;
+    border-radius: 50px;
+    margin: 12px auto;
+    font-weight: bold;
+    padding: 10px;
+    width: 100%;
+    background-color: blue;
+
+    
+}
+.container{
+    background-image:linear-gradient(rgba(241, 232, 232, 0.592), rgba(226, 232, 226, 0.792)), url(images/pv\ designs.jpg);
+    background-position: center;
+    background-size: cover;
+    font-family: sans-serif;
+    height: 100vh;
+    padding: 9px;
+
+}
+
+
+.main{
+    padding: 100px;
+    margin: 50px auto;
+    opacity: 100px;
+    text-align: center;
+    color:white;
+    font-size: larger;
+    font-weight: bolder;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+
+
+
+.main_btn{
+    border: none;
+    border-radius: 20px;
+    font-size: 1.0em;
+    background-color: blue;
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-items: center;
+}
+
+.main_btn:hover{
+    color: red;
+    background-color: aquamarine;
+}
+
+.star{
+    font-size: 1.3em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 900px;
+    padding: 550px;
+    margin-right:900px;
+    padding-left: 600px;
+}
+
+/* about */
+
+
+.about_container{
+    background-color: rgb(249, 240, 240);
+    background-position: center;
+    background-size: cover;
+    padding: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.border_line{
+    margin: 1px;
+    padding: 1px;
+    background-color: rgb(144, 126, 126);
+}
+.round_about{
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+    
+}
+
+.image{
+    background-position: left;
+    background-size: cover;
+    margin-right: 70px;
+    height: 400px;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 0 50px black;
+    border-radius: 40px;
+}
+
+.about_us h1{
+    color:black;
+    font-size: larger;
+}
+
+.about_us p{
+    color: black;
+    font-size: larger;
+}
+
+.about_us{
+    display: block;
+    justify-content: center;
+    align-items: center;   
+}
+
+/* services */
+
+.services{
+    display: block;
+    justify-content: center;
+    padding: 40px 0;
+    background-color:whitesmoke;
+    border: 3px;
+}
+
+.our--services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+}
+
+.line-div{
+    display: flex;
+    background-color: black;
+    margin: 30px 40px;
+    padding: 1px;
+}
+
+.pictures{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.id_card{
+    display: flex;
+    height: 300px;
+    margin: 60px;
+    box-shadow: 0 0 9px;
+}
+
+.business_card{
+    display: flex;
+    height: 300px;
+    margin-right: 20px;
+    box-shadow: 0 0 9px;
+}
+
+.birthday_flyer{
+    display: flex;
+    height: 300px;
+    margin-right: 10px;
+    box-shadow: 0 0 9px;
+}
+
+.word{
+    display: flex;
+    justify-content: center;
+    font-size: small;
+    font-weight: 5px;
+
+}
+
+p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.service_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 47px;
+    margin-left: 540px;
+    border: none;
+    border-radius: 60px;
+    background-color: aqua;
+    font-family: cursive;
+    transition-duration: 0s;
+}
+
+.service_button:hover{
+    background-color: darkviolet;
+}
+
+
+
+
+
+/* contact us */
+
+.contact_us{
+    display: block;
+    align-items: center;
+}
+
+
+.contact_word{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+    font-size: large;
+}
+
+.divide_line{
+    display: flex;
+    margin: 30px 40px;
+    padding: 1px;
+    background-color: black;
+}
+
+.contact-paragraph{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.app-words{
+    display: flex;
+    justify-content: center;
+    font-size: large;
+}
+
+.name{
+    display: flex;
+    background-color: rgb(122, 131, 128);
+    margin:20px 170px;
+    padding: 20px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+}
+
+.email{
+    display: flex;
+    background-color:  rgb(126, 139, 135);;
+    margin:20px 170px;
+    padding: 20px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+}
+
+.subject{
+    display: flex;
+    background-color: rgb(126, 139, 135);
+    margin:20px 170px;
+    padding: 20px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+}
+
+.message{
+    display: flex;
+    background-color: rgb(126, 139, 135);
+    margin:20px 170px;
+    padding: 20px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+}
+
+.contactus-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 80px;
+    padding: 20px;
+    margin: 14px 550px;
+    width: 150px;
+    background-color: black;
+    color: whitesmoke;
+}
+
+.contactus-btn:hover{
+    background-color: darkgray;
+    color: floralwhite;
+}
+
+/* footer */
+
+.footer{
+    display: flex;
+    background-color: dimgray;
+    padding: 40px;
+}
+
+
+.footer-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    padding: 20px 40px;
+    margin: 80px 450px;
+    width: 1000px;
+}
